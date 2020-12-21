@@ -42,7 +42,8 @@ class TableViewController: UITableViewController {
         self.shareCell.backgroundColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.5)
         self.shareCell.accessoryType = UITableViewCell.AccessoryType.checkmark
         
-        self.tableView.separatorStyle = .none
+//        self.tableView.separatorStyle = .none
+        self.tableView.tableFooterView = UIView()
         self.view.backgroundColor = .lightGray
     }
     
