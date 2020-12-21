@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		DA76E69A2585BD5C003553ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA76E6992585BD5C003553ED /* AppDelegate.swift */; };
 		DA76E69C2585BD5C003553ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA76E69B2585BD5C003553ED /* SceneDelegate.swift */; };
-		DA76E69E2585BD5C003553ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA76E69D2585BD5C003553ED /* ViewController.swift */; };
-		DA76E6A12585BD5C003553ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA76E69F2585BD5C003553ED /* Main.storyboard */; };
+		DA76E69E2585BD5C003553ED /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA76E69D2585BD5C003553ED /* TableViewController.swift */; };
 		DA76E6A32585BD5D003553ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA76E6A22585BD5D003553ED /* Assets.xcassets */; };
 		DA76E6A62585BD5D003553ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA76E6A42585BD5D003553ED /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -19,8 +18,7 @@
 		DA76E6962585BD5C003553ED /* staticCell-noStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "staticCell-noStoryboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA76E6992585BD5C003553ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA76E69B2585BD5C003553ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA76E69D2585BD5C003553ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA76E6A02585BD5C003553ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA76E69D2585BD5C003553ED /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DA76E6A22585BD5D003553ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA76E6A52585BD5D003553ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA76E6A72585BD5D003553ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,8 +56,7 @@
 			children = (
 				DA76E6992585BD5C003553ED /* AppDelegate.swift */,
 				DA76E69B2585BD5C003553ED /* SceneDelegate.swift */,
-				DA76E69D2585BD5C003553ED /* ViewController.swift */,
-				DA76E69F2585BD5C003553ED /* Main.storyboard */,
+				DA76E69D2585BD5C003553ED /* TableViewController.swift */,
 				DA76E6A22585BD5D003553ED /* Assets.xcassets */,
 				DA76E6A42585BD5D003553ED /* LaunchScreen.storyboard */,
 				DA76E6A72585BD5D003553ED /* Info.plist */,
@@ -126,7 +123,6 @@
 			files = (
 				DA76E6A62585BD5D003553ED /* LaunchScreen.storyboard in Resources */,
 				DA76E6A32585BD5D003553ED /* Assets.xcassets in Resources */,
-				DA76E6A12585BD5C003553ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA76E69E2585BD5C003553ED /* ViewController.swift in Sources */,
+				DA76E69E2585BD5C003553ED /* TableViewController.swift in Sources */,
 				DA76E69A2585BD5C003553ED /* AppDelegate.swift in Sources */,
 				DA76E69C2585BD5C003553ED /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +142,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA76E69F2585BD5C003553ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA76E6A02585BD5C003553ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA76E6A42585BD5D003553ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
